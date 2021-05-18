@@ -5,4 +5,4 @@ Exercícios dos cursos:
 - Complete Python Bootcamp From Zero to Hero in Python by Udemy
 - Python do Jeito Certo by Programação Dinâmica
 
-[Em construção]
+[em construção]
