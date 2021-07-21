@@ -12,11 +12,12 @@
 # III. Papel vence Pedra.
 # IV. Quando ambos são iguais, temos um empate.
 
+
 print('Bem vinde ao jogo Pedra, Papel e Tesoura :D')
 escolha_1 = input('Jogador 1, escolha Pedra, Papel ou Tesoura e pressione ENTER: ').lower()
 escolha_2 = input('Jogador 2, escolha Pedra, Papel ou Tesoura e pressione ENTER: ').lower()
 
-def game(escolha_1, escolha_2):    
+def game(escolha_1, escolha_2):
     while escolha_1 and escolha_2 is not None:
         if ((escolha_1 == "tesoura") and (escolha_2 == 'pedra') or (escolha_1 == "pedra") and (escolha_2 == 'tesoura')):
             return("Pedra vence Tesoura!")
@@ -25,6 +26,6 @@ def game(escolha_1, escolha_2):
         if ((escolha_1 == "papel") and (escolha_2 == 'pedra') or (escolha_1 == "pedra") and (escolha_2 == 'papel')):
             return("Papel vence Pedra!")
         if escolha_1 == escolha_2:
-            return("Ambos jogadores fizeram a mesma escolha! Temos um empate! --'")            
+            return("Ambos jogadores fizeram a mesma escolha! Temos um empate! --'")
 
 print(game(escolha_1, escolha_2))
